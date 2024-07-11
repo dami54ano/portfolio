@@ -1,7 +1,7 @@
 .Hobbies {
-    color: blue;
-    font-size: 24px;
-    }    
+  color: blue;
+  font-size: 24px;
+}
 
 #cardline {
   display: grid;
@@ -27,9 +27,11 @@ body::before {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.2);
   }
+
   100% {
     transform: scale(1);
   }
@@ -136,7 +138,7 @@ main {
 
 .card {
   transition: transform 0.5s ease;
-  position: relative; 
+  position: relative;
 }
 
 .card:hover {
@@ -168,36 +170,37 @@ main {
 .Hobbies {
   color: blue;
   font-size: 24px;
-  }    
-  .animated-background {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  .bg-layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    animation: animate 30s ease-in-out infinite;
-  }
+}
 
-  #logout-button {
-    background-color: rgb(51, 51, 51);
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    float: right; 
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  #logout-button[disabled] {
-    background-color: lightgray;
-    color: rgb(56, 55, 55);
-  }  
+.animated-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  animation: animate 30s ease-in-out infinite;
+}
+
+#logout-button {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logout-button[disabled] {
+  background-color: lightgray;
+  color: rgb(56, 55, 55);
+}

@@ -145,9 +145,11 @@ body::before {
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.2);
     }
+
     100% {
         transform: scale(1);
     }
@@ -332,6 +334,7 @@ main {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-100%);
     }
@@ -347,18 +350,23 @@ main {
     0% {
         color: #FF69B4;
     }
+
     20% {
         color: #33CC33;
     }
+
     40% {
         color: #0066FF;
     }
+
     60% {
         color: #FF9320;
     }
+
     80% {
         color: #FF69B4;
     }
+
     100% {
         color: #FF7733;
     }
