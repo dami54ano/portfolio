@@ -22,9 +22,8 @@ body {
 .wrapper {
     width: 420px;
     background-color: transparent;
-    border: 3px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
