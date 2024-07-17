@@ -2,90 +2,85 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="Ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Damianos Website</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="Home.css">
-  <link rel="stylesheet" href="navbar.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damianos Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid test">
-        <a class="navbar-brand" href="aboutme.html">About Me</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="Home.html">Home</a>
+<header>
+    <nav class="navbar">
+        <ul>
+            <li><a class="nav-link" href="home.html">Home</a></li>
+            <li><a class="nav-link" href="aboutme.html">About Me</a></li>
+            <li>
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Dream</a></li>
+                </ul>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Dream</a></li>
-              </ul>
+            <li>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
             </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          </form>
-          <button id="logout-button" enable>
-            <a class="nav-link active" href="index.html">logout</a>
-          </button>
+            <li><a class="nav-link" href="index.html">logout</a></li>
+        </ul>
     </nav>
-  </header>
-  <main>
+</header>
+<main>
     <h1 class="rainbow-text">Hello, Team!</h1>
     <div id="cardline">
-      <div class="card" style="width: 18rem;">
-        <img src="./images/IMG_3800.jpg" class="card-img-top" alt="Image description">
-        <div class="card-body">
-          <h5 class="Hobbies">About Me</h5>
-          <p class="card-text">I love playing volleyball and basketball, as well as riding my bike.</p>
-          <a href="aboutme.html" target="_blank" class="btn btn-primary">Learn more</a>
+        <div class="card" style="width: 18rem;">
+            <img src="/images/IMG_3800.jpg" class="card-img-top" alt="Image description">
+            <div class="card-body">
+                <h5 class="Hobbies">About Me</h5>
+                <p class="card-text">I love playing volleyball and basketball, as well as riding my bike.</p>
+                <a href="aboutme.html" target="_blank" class="btn btn-primary">Learn more</a>
+            </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./images/Herunterladen (3).jpg" class="card-img-top" alt="Image description" width="50px"
-          height="50px">
-        <div class="card-body">
-          <h5 class="Hobbies">Dream</h5>
-          <p class="card-text">My dream is to work in a fun and beautiful team and become independent. Additionally, I
-            want to own my dream car, the BMW M5 F90. Someday, I also hope to have a family and enjoy a healthy life. Of
-            course, I also want to explore and learn about different cultures.</p>
+        <div class="card" style="width: 18rem;">
+            <img src="/images/Herunterladen%20(3).jpg" class="card-img-top" alt="Image description" width="50px"
+                 height="50px">
+            <div class="card-body">
+                <h5 class="Hobbies">Dream</h5>
+                <p class="card-text">My dream is to work in a fun and beautiful team and become independent.
+                    Additionally, I
+                    want to own my dream car, the BMW M5 F90. Someday, I also hope to have a family and enjoy a healthy
+                    life. Of
+                    course, I also want to explore and learn about different cultures.</p>
+            </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./images/OIP.jpg" class="card-img-top" alt="Image description">
-        <div class="card-body">
-          <h5 class="Hobbies">Kompetenzen</h5>
-          <p class="card-text">Want to know which skills I have?</p>
-          <a href="https://www.linkedin.com/in/damiano-scarcia-5a313b288/" target="_blank" class="btn btn-primary">Learn more</a>
+        <div class="card" style="width: 18rem;">
+            <img src="/images/OIP.jpg" class="card-img-top" alt="Image description">
+            <div class="card-body">
+                <h5 class="Hobbies">Kompetenzen</h5>
+                <p class="card-text">Want to know which skills I have?</p>
+                <a href="https://www.linkedin.com/in/damiano-scarcia-5a313b288/" target="_blank"
+                   class="btn btn-primary">Learn more</a>
+            </div>
         </div>
-      </div>
     </div>
     </div>
-  </main>
+</main>
 </body>
 </html>
